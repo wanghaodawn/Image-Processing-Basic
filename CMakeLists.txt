@@ -1,0 +1,5 @@
+cmake_minimum_required(VERSION 2.8)
+project( asst5_imageprocessing )
+find_package( OpenCV REQUIRED )
+add_executable( asst5_imageprocessing main.cpp )
+target_link_libraries(asst5_imageprocessing ${OpenCV_LIBS} )
